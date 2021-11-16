@@ -7,9 +7,13 @@ Most of the times in order to get inisights from a data, the solution is doing e
 
 For the sake of this project, I've used a small dataset from kaggle which has a few features on student education and experience and the target being if the student got placed in a job.
 
-# Method
+# Aim
 
 Although it's very easy to plot these trees, they need to be interpreted manually and to get the data in a node, we need to use the conditions again. The aim of this project is to create an automated way which transforms these trees in a different way and gives two dictionaries as output where one is the dictionary of conditions and the summary of a node and the other is a dictionary of dataframes with these conditions.
+
+# Method
+
+These trees are presented in a .dot file format. We can load this and edit the text using regex to get the desired format.
 
 Here's an example. The nodes correspond to the keys of the dictionary
 
